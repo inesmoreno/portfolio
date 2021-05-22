@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Inès Moreno Boluda</title>
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <script src="javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <ul class="nav-bar">
+                        <li class="logo"><a href="index.html">
+                            <span style="color: #C94C4C; font-size: 30px;"> &#9632 </span>
+                            <span style="font-size: 20px; font-weight: bold;"> Inès Moreno Boluda </span>
+                        </a href></li>
+                        <div class="links">
+                            <li><a href="resume.html">ABOUT</a></li>
+                            <li><a href="case_studies.html">PROJECTS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+
+                <p style="margin-top:50px; text-align: center; font-size: 30px; font-weight: bold;"> Seen something you like? </p>
+                <p style="margin-top:20px;text-align: center; font-family: 'Raleway', sans-serif; font-size: 20px;"> I'm looking forward to hearing from you!</p>
+                <div class="contact-form-container">
+                    <form id="contact-form" action="contact-form-process.php" method="POST">
+                        
+                        <label for="Name"> Your Name </label> <br>
+                        <input type="text" id="Name" name="Name" required>
+
+                        <label for="Email"> Email </label> <br>
+                        <input type="email" id="Email" name="Email" required>
+                        
+                        <label for="Subject"> Subject </label> <br>
+                        <input type="text" id="Subject" name="Subject">
+
+                        <label for="Message"> Message </label> <br>
+                        <input type="textarea" rows="5" id="Message" name="Message" required>
+
+                        <input class="btn" type="submit" value="SEND">
+
+
+                    </form>
+                </div>
+                
+            </main> 
+            <footer>
+                <div class="contact-info">
+                    <p style="font-weight: bold;"> Let's talk! </p>
+                    <p> ines (dot) moreno (at) mail (dot) mcgill (dot) ca </p>
+                </div>
+                <div class="copyright">
+                    <p> &#xA9 2021 by Inès Moreno Boluda </p>
+                </div>
+            </footer> 
+        </div> 
+    </body>
+</html>
